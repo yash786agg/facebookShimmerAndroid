@@ -12,6 +12,26 @@ I hope you earlier noticed this shimmer effect in Facebook’s mobile and deskto
 
 # Getting Started
 
+ ## Usage
+   ### Step 1 : Add "facebookShimmerAndroid" to your Android project.
+
+   1- Open your project in Android Studio.
+   2- Download the library
+       (using Git Link ---> https://github.com/yash786agg/facebookShimmerAndroid.git)
+                                        or 
+       (Download a zip File archive to unzip)
+    
+   3- Create a folder "ShimmerLib" in your project.
+   4- Copy and paste the Code to your ShimmerLib folder
+   5- On the root of your project directory create/modify the settings.gradle file. It should contain something like the following:
+
+      include 'MyApp', ':ShimmerLib'
+
+   6- Go to File > Project Structure > Modules.
+   7- App > Dependencies.
+   8- Click on the more on the left green "+" button > Module dependency.
+   9- Select "ShimmerLib Library".
+
 * __When you want to start the Shimmering Effect__
 
         rclv.setVisibility(View.GONE);
